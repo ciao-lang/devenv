@@ -8,5 +8,7 @@ depends([
   contrib-[version>='1.15.0'],
   lpdoc-[version>='3.0.0'],
   % ciaopp-[version='1.2.0'], (Optional)
-  'github.com/ciao-lang/ciao_emacs'-[version>='1.15.0']
+  ciao_emacs-[version>='1.15.0'],
+  % Include general manuals
+  alldocs-[version>='1.15.0']
 ]).
