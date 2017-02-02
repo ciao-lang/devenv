@@ -17,7 +17,7 @@ ciao get devenv
 ```
  - (experimental) one-line installation for Linux and macOS (use with care!):
 ```sh
-curl https://raw.githubusercontent.com/ciao-lang/ciao/master/ciao-boot.sh -sSf | sh -s -- get devenv
+curl https://ciao-lang.org/boot -sSfL | sh -s -- get devenv
 ```
 
 where the uninstallation methods are, respectively:
