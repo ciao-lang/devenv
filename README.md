@@ -26,7 +26,7 @@ where the uninstallation methods are, respectively:
  - `ciao uninstall ciao_emacs`, `ciao rm ciao_emacs`, `ciao rm devenv`, etc. (must be done by hand per bundle)
  - remove system at `~/.ciaoroot/master`:
 ```sh
-~/.ciaoroot/master/ciao-boot.sh uninstall ciao
+( cd ~/.ciaoroot/master; ./ciao-boot.sh uninstall )
 rm -rf ~/.ciaoroot/master
 rmdir ~/.ciaoroot > /dev/null 2>&1 || true
 ```
