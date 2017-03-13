@@ -3,7 +3,7 @@
 version('1.16.0-alpha.3').
 alias_paths([]).
 depends([
-  builder-[version>='1.4.0'],
+  builder-[version>='1.5.0'],
   core-[version>='1.16.0-alpha.3'],
   lpdoc-[version>='3.0.0'],
   % ciaopp-[version='1.2.0'], (Optional)
