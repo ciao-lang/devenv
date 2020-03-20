@@ -1,16 +1,16 @@
 :- bundle(devenv).
 % The default development environment
-version('1.18.0').
+version('1.19.0').
 alias_paths([]).
 depends([
-  builder-[version>='1.18'],
-  core-[version>='1.18'],
+  builder-[version>='1.19'],
+  core-[version>='1.19'],
   lpdoc-[version>='3.2.0'],
   % ciaopp-[version='1.2.0'], (Optional)
-  ciao_emacs-[version>='1.18'],
-  ciaodbg-[version>='1.18'],
+  ciao_emacs-[version>='1.19'],
+  ciaodbg-[version>='1.19'],
   ciaofmt-[version>='1.0.0'],
   % TODO: add more bundles?
   % Include general manuals
-  alldocs-[version>='1.18']
+  alldocs-[version>='1.19']
 ]).
