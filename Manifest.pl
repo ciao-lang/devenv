@@ -1,6 +1,6 @@
 :- bundle(devenv).
 % The default development environment
-version('1.21.0-alpha.4').
+version('1.21.0').
 alias_paths([]).
 depends([
   builder-[version>='1.20'],
