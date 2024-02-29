@@ -5,7 +5,7 @@ alias_paths([]).
 depends([
   builder-[version>='1.22'], % (same as 'core')
   core-[version>='1.22'],
-  lpdoc-[version>='3.5.0'],
+  lpdoc-[version>='3.6.0'],
   ciaopp-[version='1.5.0'],
   ciao_emacs-[version>='1.22'], % (same as 'core')
   ciaodbg-[version>='1.22'], % (same as 'core')
