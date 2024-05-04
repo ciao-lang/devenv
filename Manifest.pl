@@ -8,7 +8,6 @@ depends([
   lpdoc-[version>='3.6.0'],
   ciaopp-[version='1.6.0'],
   ciao_emacs-[version>='1.23'], % (same as 'core')
-  ciaodbg_extra-[version>='1.23'], % (same as 'core')
   ciaofmt-[version>='1.0.0'],
   % TODO: add more bundles?
   % Include general manuals
